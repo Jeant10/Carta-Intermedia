@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="157.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectofinal_poo_2021b_jtituana.JugadorControlador">
+    <children>
+        <Label layoutX="14.0" layoutY="50.0" text="Ingresa tu nickname:">
+         <font>
+            <Font name="MS Reference Sans Serif" size="15.0" />
+         </font></Label>
+        <TextField fx:id="txtnickname" layoutX="194.0" layoutY="47.0" prefHeight="25.0" prefWidth="208.0" />
+        <Button layoutX="182.0" layoutY="119.0" mnemonicParsing="false" onAction="#salir" text="Salir" />
+        <Button fx:id="btnsiguiente" layoutX="161.0" layoutY="85.0" mnemonicParsing="false" onAction="#siguiente" prefHeight="25.0" prefWidth="81.0" text="Siguiente" />
+      <Label layoutX="73.0" layoutY="14.0" text="Bienvenido al Juego &quot;Carta Intermedia&quot;">
+         <font>
+            <Font name="Microsoft PhagsPa Bold" size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

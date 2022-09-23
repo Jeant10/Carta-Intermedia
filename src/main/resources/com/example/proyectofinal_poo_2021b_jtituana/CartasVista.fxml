@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectofinal_poo_2021b_jtituana.CartasControlador">
+   <children>
+      <ImageView fx:id="imgcartatres" fitHeight="341.0" fitWidth="231.0" layoutX="272.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tapa.jpg" />
+         </image></ImageView>
+      <Button layoutX="359.0" layoutY="497.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="32.0" prefWidth="64.0" text="Iniciar" />
+      <ImageView fx:id="imgcartauno" fitHeight="341.0" fitWidth="231.0" layoutX="26.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tapa.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="imgcartados" fitHeight="341.0" fitWidth="231.0" layoutX="522.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tapa.jpg" />
+         </image></ImageView>
+      <Label layoutX="313.0" layoutY="14.0" text="Carta Intermedia">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="113.0" layoutY="447.0" text="Monedas" />
+      <TextField fx:id="txtmonedas" layoutX="177.0" layoutY="443.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="txtmonedasmaquina" layoutX="566.0" layoutY="443.0" prefHeight="25.0" prefWidth="50.0" />
+      <Label layoutX="497.0" layoutY="447.0" text="Monedas" />
+      <Button layoutX="439.0" layoutY="497.0" mnemonicParsing="false" onAction="#salir" prefHeight="32.0" prefWidth="64.0" text="Salir" />
+      <Label fx:id="lbljugador" alignment="TOP_LEFT" layoutX="110.0" layoutY="409.0" prefHeight="17.0" prefWidth="134.0" />
+      <Label layoutX="497.0" layoutY="409.0" prefHeight="17.0" prefWidth="50.0" text="Maquina" />
+      <Button layoutX="276.0" layoutY="497.0" mnemonicParsing="false" onAction="#apostar" prefHeight="32.0" prefWidth="64.0" text="Apostar" />
+   </children>
+</AnchorPane>
