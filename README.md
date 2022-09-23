@@ -1,5 +1,5 @@
-# El programa consiste en desarrollar el famoso juego “CARTA INTERMEDIA”, para lo
-cual se deberá tomar en cuenta:
+# El programa consiste en el famoso juego “CARTA INTERMEDIA”
+Se debe tomar en cuenta:
 • El programa empezará repartiendo DOS (2) cartas alzar y el usuario tendrá la
 posibilidad de apostar si la tercera (3) carta es una CARTA INTERMEDIA O NO.
 • Al iniciar el juego, tanto la máquina como el usuario poseen 50 monedas.
